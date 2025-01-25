@@ -179,15 +179,16 @@ header .menu {
     gap: 40px;
 }
 
-header .menu li:first-child {
+header .menu li:first-child a {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #404bbf;
+}
+
+header .address-link li:first-child a {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-header .address-link li:first-child {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-header .address-link li:last-child {
+header .address-link li:last-child a {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
